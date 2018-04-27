@@ -33,6 +33,14 @@ $ git push origin test:test              // 提交本地 test 分支作为远程
 ```
 
 
+## 修改删除
+
+```
+暂存区文件到工作区：$ git reset HEAD
+ 
+```
+
+
 ## 分支 (branch) 操作相关命令
 
 ```
