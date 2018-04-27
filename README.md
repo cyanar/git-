@@ -37,7 +37,12 @@ $ git push origin test:test              // 提交本地 test 分支作为远程
 
 ```
 暂存区文件到工作区：$ git reset HEAD
- 
+版本回退（已经commit过): $ git reset --hard xxxxx(提交版本号，可以用git log来查看) 
+版本回退的几种情况：（需要注意hard,soft,mixed模式的区别）
+1. $ git reset --hard HEAD^ (回退至上一次提交且这次提交的东西被清除)
+2. $ git reset --soft HEAD^ (回退至上一次提交且这次提交的东西没有丢失存在暂存区里)
+3. $ git reset --mixed HEAD^ (回退至上一次提交且这次提交的东西没有丢失存在工作区里)
+
 ```
 
 
