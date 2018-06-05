@@ -18,6 +18,7 @@ gaidong111
 gaidong222
 gaidong333
 test444
+test555
 检出仓库：$ git clone git://github.com/jquery/jquery.git
 查看远程仓库：$ git remote -v
 添加远程仓库：$ git remote add [name] [url]
